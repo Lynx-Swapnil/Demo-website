@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+  background-color: #FFFFFF;
+  color: #005FAC;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#banner{
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+}
+ .banner-content{
+    max-width: 525px;
+    text-align: right;
+    margin-right: 230px;
+    
+ }
+
+#banner .banner-content h1{
+    margin-top: 210px;
+    font-size: 65px;
+    font-weight: bold;
+}
+#banner .banner-content p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+#banner .banner-content button{
+    margin-top: 32px;
+    margin-bottom: 166px;
+}
+
+#failure .failure-content{
+   display: flex;
+    align-items: center;
+    gap: 87px;
+}
+#failure .failure-content img{
+    
+    margin-left: 206px;
+    margin-top: 131px;
+}
+
+#failure .failure-content .failure-text{
+    max-width: 416px;
+    margin-top: 370px;
+}
+#failure .failure-content .failure-text h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+#failure .failure-content .failure-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#failure .failure-content ul{
+    list-style-type: none;
+}
+#failure .failure-content ul li{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 26px;
+}
+#plans h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+#plans .my-plans ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+}
+#plans .my-plans ul li {
+    text-align: center;
+}
+#plans .my-plans ul li h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#plans .my-plans ul li p{
+    font-size: 25px;
+    font-weight: normal;
+    color: #737272;
+
+}
+#plans .gradient .btn-c{
+  background-color: white;
+  border: none;
+  color: #005FAC;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+#plans .gradient h2{
+    text-align: left;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+#plans .gradient .gradient-content {
+    max-width: 459px;
+    margin-left: 64px;
+    padding-bottom: 150px;
+
+}
+#plans .gradient {
+    width: 71%;
+    max-width: 1140px;
+    height: 300px;
+    margin: 130px auto;
+    background-image: url('../images/gradient2.png') , 
+    url('../images/watch.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center , center;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#foot .footer{
+    display: flex;
+    gap: 331px;
+    align-items: center;
+     width: 100%;
+    max-width: 1600px;
+    background-color: #151414;
+    color: #FFFFFF;
+}
+#foot .footer ul{
+    display: flex;
+    list-style: none;
+     gap: 17px;
+}
+#foot .footer .social h2{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+#foot .footer .social .pera{
+    font-size: 16px;
+    line-height: 26px;
+}
+#foot .footer .social{
+    max-width: 485px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 230px;
+}
+#p1{
+    margin-bottom: 24px;
+}
+#p2{
+    margin-bottom: 16px;
+}
+#p3{
+    margin-bottom: 32px;
+}
+
+#foot .footer .form h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+#foot .footer .form .btn-s{
+background-color: #005FAC;
+  border: none;
+  color: #FFFFFF;
+  padding: 20px 36px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+#foot .footer .form input{
+    border: 1px solid #F3F3F3;
+    background-color: #151414;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+
+/* Top-right fixed navbar */
+.site-nav {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    gap: 8px;
+    padding: 8px 10px;
+    background: rgba(21, 20, 20, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+.site-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+    background: rgba(255, 255, 255, 0.15);
+}
+@media (max-width: 480px) {
+    .site-nav { top: 10px; right: 10px; padding: 6px 8px; }
+    .site-nav a { font-size: 13px; padding: 5px 8px; }
+}
